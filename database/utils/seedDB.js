@@ -11,19 +11,22 @@ const seedDB = async () => {
 	const dummy_campus = await Campus.create({
 		name: "Hunter College",
 		address: "695 Park Ave, New York, NY 10065",
-		description: "This is a school in New York, New York." 
+		description: "This is a school in New York, New York.",
+		imageUrl : "https://s29068.pcdn.co/wp-content/uploads/68th-street-campus-3-1024x576.jpg"
 	});
 	// Create a new campus
 	const dummy_campus2 = await Campus.create({
 		name: "Queens College",
 		address: "65-30 Kissena Blvd, Queens, NY 11367",
-		description: "This is a school in Queens, New York."
+		description: "This is a school in Queens, New York.",
+		imageUrl : "https://nypost.com/wp-content/uploads/sites/2/2020/03/shutterstock_210220948.jpg?quality=75&strip=all"
 	});
 	// Create a new campus
 	const dummy_campus3 = await Campus.create({
 		name: "Brooklyn College",
 		address: "2900 Bedford Ave, Brooklyn, NY 11210",
-		description: "This is a school in Brooklyn, New York."
+		description: "This is a school in Brooklyn, New York.",
+		imageUrl: "http://www.brooklyn.cuny.edu/web/com_homepage_2022/220323-Summer2022-1400x788.jpg"
 	});
 	
 	// Create a new student for a campus
